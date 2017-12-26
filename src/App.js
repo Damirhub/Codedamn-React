@@ -1,29 +1,21 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
+import { HelloPlanet } from './components/HelloPlanet';
 
 
 
-class App extends React.Component {
+var obi = {
+  num: 5
+};
 
-  render() {
-     
-    return (
-      <div className = "container ">
-        mdimsdim
-        <h2>{this.props.name}</h2>
-      </div>
-    )
-  }
-}
+ReactDOM.render( 
+<div>
+  <HelloPlanet name = "Planjet" bobi = {obi.num}/>
 
+
+  </div>
+  , document.getElementById('App7'));
 
 
 
-
-render( <App name = {"MIMIMI"}/>, document.getElementById('App7'));
-
-
-
-
-
-export default App;
+export default HelloPlanet;
