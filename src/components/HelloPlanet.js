@@ -4,19 +4,23 @@ export class HelloPlanet extends React.Component{
 
 
     constructor () {
-        super() 
+        super();
         this.state = {
             counter: 0
         }
- 
-    setInterval (()=>{
-        this.setState ({counter: this.state.counter + 1})
-    }, 100)
+
+          setInterval (() => {
+              this.setState ({
+                  counter: this.state.counter + 1
+              })
 
 
 
+
+
+          }, 100)
     }
-
+    
   render () {
     
     return (
