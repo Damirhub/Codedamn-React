@@ -11,8 +11,11 @@ var obi = {
 ReactDOM.render( 
 <div>
   <HelloPlanet name = "Planjet" bobi = {obi.num}/>
+  <h1>TESTING BRANCH</h1>
 
-
+  <h1>TESTING ONE</h1>
+  
+  <h1>TESTING THREE</h1>
   </div>
   , document.getElementById('App7'));
 
